@@ -1,23 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+
 </head>
+
 <body>
-    
+
+  <div class="container-sm">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="" href="#home">Konrad A Haight</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#closingBackground">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <div id="home" class="jumbotron">
+    <div class="big-name">
+      <h1>Konrad A Haight</h1>
+      <p>.Net Developer</p>
+    </div>
+
+    </section>
+  </div>
+  <div id="about" class="container-fluid">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="display-5" style = "text-align: center;">About Me</h1>
+        <p class="lead"> I was a researcher and data analyst for 10 years with a focus on juvenile and adult criminal
+          justice system practices. I decided that I would be happier as a computer programmer and took the steps
+          necessary to make that possible, with the help of ElevenFifty Academy and support of my wife.</p>
+        <div class="row">
+          <div class="col"><a href="https://github.com/kahaight" target="blank"><img
+                src="./assets/GitHub-Mark-Light-120px-plus.png"  class="img-responsive"style="width:75%">
+            </a></div>
+          <div class="col"><a href="https://www.linkedin.com/in/konrad-haight-b6552336/" target="blank"><img
+                src="./assets/LI-In-Bug.png"  class="img-responsive"style="width:75%">
+            </a></div>
+          <div class="col"><a href="./assets/Haight Konrad - 2019 Resume - 05092019.pdf" target="blank"><img
+                src="./assets/icons8-resume-96.png" class="img-responsive" style ="width:75%;">
+            </a></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img id="profilePic" src="./assets/pumpkins.jpg" class="img-responsive" style="width:100%">
+      </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container-fluid bg-3 text-center" id="portfolio">
+      <h1 style = "color: white;">Some of my Work</h1><br>
+      <div class="row">
+        <div class="col-sm-3">
+          <p style = "color:white;">HTML/CSS Bob-Omb</p>
+          <a href="https://codepen.io/khaight/full/qBEwYXL" target="blank"><img src="./assets/bob-omb.png" class="img-responsive" style="width:100%" alt="Image"></a>
+        </div>
+        <div class="col-sm-3">
+          <p style = "color:white;">HTML/CSS Magic Store</p>
+          <a href="https://kahaight.github.io/Magic-Store/" target="blank"><img src="./assets/magic-store.png" class="img-responsive" style="width:100%" alt="Image"></a>
+        </div>
+        <div class="col-sm-3">
+          <p style = "color:white;">Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <p style = "color:white;">Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container-fluid bg-3 text-center" id ="experience">
+      <h1 style = "color: white;">My Experience</h1><br>
+      <div class="row">
+        <div class="col-sm-3">
+     <!-- <table id = "xpTable">
+       <tr>
+         <th style="text-align: left;">
+           Company:
+         </th>
+         <td style ="text-align: right;">
+            American Institutes for Research
+         </td>
+       </tr>
+       <tr>
+         <th style = "text-align: left;">
+Position: 
+         </th>
+         <td style ="text-align: right;">
+           Researcher
+         </td>
+       </tr>
+       <tr>
+         <th>
+           Years: 
+         </th>
+         <td>
+           2016 to Present
+         </td>
+       </tr>
+
+     </table> -->
+     <table class="table">
+      <tbody>
+        <tr>
+          <th scope="row">Company: </th>
+          <td>American Institutes For Research</td>
+        </tr>
+        <tr>
+          <th scope="row">Position: </th>
+          <td>Researcher</td>
+        </tr>
+        <tr>
+          <th scope="row" style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">Years: </th>
+          <td style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">2016 to Present</td>
+        </tr>
+      </tbody>
+    </table>
+        </div>
+        <div class="col-sm-3">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Company: </th>
+                <td>American Institutes For Research</td>
+              </tr>
+              <tr>
+                <th scope="row">Position: </th>
+                <td>Research Associate</td>
+              </tr>
+              <tr>
+                <th scope="row" style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">Years: </th>
+                <td style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">2012 to 2016</td>
+              </tr>
+            </tbody>
+          </table>
+
+          </div>
+        <div class="col-sm-3">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Company: </th>
+                <td>IUPUI Center for Criminal Justice Research</td>
+              </tr>
+              <tr>
+                <th scope="row">Position: </th>
+                <td>Research Analyst</td>
+              </tr>
+              <tr>
+                <th scope="row" style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">Years: </th>
+                <td style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">2011 to 2012</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        <div class="col-sm-3">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Company: </th>
+                <td>IUPUI Center for Criminal Justice Research</td>
+              </tr>
+              <tr>
+                <th scope="row">Position: </th>
+                <td>Research Assistant</td>
+              </tr>
+              <tr>
+                <th scope="row" style = "border-bottom: 5px solid rgba(0, 255, 0, 0.4);">Years: </th>
+                <td style = "border-bottom: 5px solid  rgba(0, 255, 0, 0.4);">2009 to 2011</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div><br><br>
+
+    <div class="container-fluid" id="closingBackground">
+      <div id="contact" class="container-fluid">
+        <h1 style="color: white">Contact Me</h1>
+        <form action="https://formspree.io/xayjwokp" method="POST">
+          <div class="form-group">
+            <label for="name" style="color: white;">Your name</label>
+            <input type="" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="email" style="color: white;">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+              placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message" style="color: white;">Your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+
+      <footer class="container-fluid text-center">
+        <p>Thanks for visiting!</p>
+      </footer>
+          </div>
 
 
 
 
-
-<!--Script tags below-->    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+<!--Script tags below-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>
