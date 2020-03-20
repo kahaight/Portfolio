@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Konrad Haight Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
@@ -41,28 +41,27 @@
 
   <div id="home" class="jumbotron">
     <div class="big-name">
-      <h1>Konrad A Haight</h1>
+      <h1 class = "display-1">Konrad A Haight</h1>
       <p>.Net Developer</p>
     </div>
-
-    </section>
+    <p id="pauseAnimation">Click anywhere to pause animation</p>
   </div>
   <div id="about" class="container-fluid">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
     <div class="row">
       <div class="col-md-8">
-        <h1 class="display-5" style = "text-align: center;">About Me</h1>
+        <h2 class="display-4" style = "text-align: center;">About Me</h2>
         <p class="lead"> I was a researcher and data analyst for 10 years with a focus on juvenile and adult criminal
           justice system practices. I decided that I would be happier as a computer programmer and took the steps
           necessary to make that possible, with the help of ElevenFifty Academy and support of my wife.</p>
         <div class="row">
-          <div class="col"><a href="https://github.com/kahaight" target="blank"><img
+          <div class="col"><p style = "text-align: center;">GitHub</p><a href="https://github.com/kahaight" target="blank"><img
                 src="./assets/GitHub-Mark-Light-120px-plus.png"  class="img-responsive"style="width:75%">
             </a></div>
-          <div class="col"><a href="https://www.linkedin.com/in/konrad-haight-b6552336/" target="blank"><img
+          <div class="col"><p>LinkedIn</p><a href="https://www.linkedin.com/in/konrad-haight-b6552336/" target="blank"><img
                 src="./assets/LI-In-Bug.png"  class="img-responsive"style="width:75%">
             </a></div>
-          <div class="col"><a href="./assets/Haight Konrad - 2019 Resume - 05092019.pdf" target="blank"><img
+          <div class="col"><a>Resume</a><a href="./assets/Haight Konrad - 2019 Resume - 05092019.pdf" target="blank"><img
                 src="./assets/icons8-resume-96.png" class="img-responsive" style ="width:75%;">
             </a></div>
         </div>
@@ -77,19 +76,22 @@
     <br>
 
     <div class="container-fluid bg-3 text-center" id="portfolio">
-      <h1 style = "color: white;">Some of my Work</h1><br>
+      <h2 class="display-4" style = "color: white;">Some of my Work</h2><br>
       <div class="row">
         <div class="col-sm-3">
-          <p style = "color:white;">HTML/CSS Bob-Omb</p>
-          <a href="https://codepen.io/khaight/full/qBEwYXL" target="blank"><img src="./assets/bob-omb.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <h3 class = "display-5" style = "color:white;">ASP.NET GoT API</h3>
+          <p style = "text-align: left;">Project goal: As a group, build a REST API in ASP.NET, coordinating over Slack, Zoom, and GitHub</p>
+          <a href="https://github.com/kahaight/GameOfThronesAPI" target="blank"><img src="./assets/GoTAPI.png" class="img-responsive" style="width:100%" alt="Game Of Thrones API"></a>
         </div>
         <div class="col-sm-3">
-          <p style = "color:white;">HTML/CSS Magic Store</p>
+          <h3 class = "display-5" style = "color:white;">HTML/CSS Bob-Omb</h3>
+          <p style = "text-align: left;">Project goal: build a creature using only html and CSS formatting</p>
+          <a href="https://codepen.io/khaight/full/qBEwYXL" target="blank"><img src="./assets/bob-omb.png" class="img-responsive" style="width:100%" alt="CSS Bob-Omb"></a>
+        </div>
+        <div class="col-sm-3">
+          <h3 class = "display-5" style = "color:white;">HTML/CSS Magic Store</h3>
+          <p style = "text-align: left;">Project goal: build a static store front with html and CSS, without using a component library (e.g. bootstrap)</p>
           <a href="https://kahaight.github.io/Magic-Store/" target="blank"><img src="./assets/magic-store.png" class="img-responsive" style="width:100%" alt="Image"></a>
-        </div>
-        <div class="col-sm-3">
-          <p style = "color:white;">Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-3">
           <p style = "color:white;">Some text..</p>
@@ -99,36 +101,10 @@
     </div><br>
 
     <div class="container-fluid bg-3 text-center" id ="experience">
-      <h1 style = "color: white;">My Experience</h1><br>
+      <h2 class="display-4" style = "color: white;">My Experience</h2><br>
       <div class="row">
         <div class="col-sm-3">
-     <!-- <table id = "xpTable">
-       <tr>
-         <th style="text-align: left;">
-           Company:
-         </th>
-         <td style ="text-align: right;">
-            American Institutes for Research
-         </td>
-       </tr>
-       <tr>
-         <th style = "text-align: left;">
-Position: 
-         </th>
-         <td style ="text-align: right;">
-           Researcher
-         </td>
-       </tr>
-       <tr>
-         <th>
-           Years: 
-         </th>
-         <td>
-           2016 to Present
-         </td>
-       </tr>
 
-     </table> -->
      <table class="table">
       <tbody>
         <tr>
@@ -206,7 +182,7 @@ Position:
 
     <div class="container-fluid" id="closingBackground">
       <div id="contact" class="container-fluid">
-        <h1 style="color: white">Contact Me</h1>
+        <h2 class="display-4" style="color: white">Contact Me</h2>
         <form action="https://formspree.io/xayjwokp" method="POST">
           <div class="form-group">
             <label for="name" style="color: white;">Your name</label>
@@ -230,8 +206,8 @@ Position:
         <p>Thanks for visiting!</p>
       </footer>
           </div>
-
-
+<script src="app.js"></script>
+<noscript>You need to enabl JavaScript to view the full site.</noscript>
 
 
 </body>
