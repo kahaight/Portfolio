@@ -103,3 +103,9 @@ a:hover {
     color: rgba(0, 255, 0, 0.4);
     font-weight: bold;
   }
+
+  #pauseAnimation {
+      position: absolute;
+      bottom: 0;
+      font-size: .75rem;
+  }
